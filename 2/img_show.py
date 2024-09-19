@@ -1,6 +1,6 @@
 import cv2
 
-img_file = "./img/girl.jpg" # 표시할 이미지 경로 ---①
+img_file = "../img/girl.jpg"  # 표시할 이미지 경로 ---①
 img = cv2.imread(img_file) # 이미지를 읽어서 img 변수에 할당 ---②
 
 if img is not None:
